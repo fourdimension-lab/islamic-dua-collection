@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d3b47"/>
+      <stop offset="100%" stop-color="#06191f"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5eead4"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#bg)"/>
+  <circle cx="32" cy="32" r="28" fill="none" stroke="url(#gold)" stroke-width="1.5" opacity="0.4"/>
+  <!-- Left Hand Raised in Dua -->
+  <path d="M 23 48 C 21 44 19 38 20 32 C 20.5 28 22 24 24 20 C 25 18 27 19 26.5 22 C 26 25 25 29 25 32 L 28 22 C 29 20 30.5 21 30 23 C 29.5 26 28 30 28 33 L 31 25 C 32 23 33.5 24 33 26 L 31 34 C 31 38 29 44 26 48 Z" fill="url(#teal)"/>
+  <!-- Right Hand Raised in Dua (Mirrored) -->
+  <path d="M 41 48 C 43 44 45 38 44 32 C 43.5 28 42 24 40 20 C 39 18 37 19 37.5 22 C 38 25 39 29 39 32 L 36 22 C 35 20 33.5 21 34 23 C 34.5 26 36 30 36 33 L 33 25 C 32 23 30.5 24 31 26 L 33 34 C 33 38 35 44 38 48 Z" fill="url(#teal)"/>
+  <!-- Celestial Sparkle / Noor Above Hands -->
+  <polygon points="32,9 33.5,14 38,14 34.5,17 36,21 32,18.5 28,21 29.5,17 26,14 30.5,14" fill="url(#gold)"/>
+  <!-- Tasbih beads arc below -->
+  <circle cx="20" cy="52" r="2" fill="url(#gold)"/>
+  <circle cx="26" cy="54" r="2" fill="url(#gold)"/>
+  <circle cx="32" cy="55" r="2" fill="url(#gold)"/>
+  <circle cx="38" cy="54" r="2" fill="url(#gold)"/>
+  <circle cx="44" cy="52" r="2" fill="url(#gold)"/>
+</svg>
